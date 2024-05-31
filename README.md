@@ -1,2 +1,1 @@
-# CLASE_01
-Repositorio de la clase 1
+# CMCB16.github.io
