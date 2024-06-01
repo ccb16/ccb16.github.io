@@ -103,10 +103,10 @@ html{
     background-color: #940253;
     box-shadow: 0 0 20px #fff;
 }
-.inicio .contenido-seccion .FOTO{
+.inicio .contenido-seccion .foto{
     position: relative;
 }
-.inicio .contenido-seccion .FOTO img{
+.inicio .contenido-seccion .foto img{
     max-width: 200px;
     border-radius: 50%;
     border: 5px solid #940253;
