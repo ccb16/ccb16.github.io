@@ -1,266 +1,518 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>CV MARTIN SHEPARD</title>
-</head>
-<body>
-    <!-- SECCION INICIO -->
-    <section class="inicio" id="inicio">
-        <div class="contenido-seccion">
-            <header>
-                <div class="nav-bar" onclick="mostrarOcultarMenu()">
-                    <i class="fa-solid fa-bars"></i>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Resume Website Template Free Download</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Resume Website Template Free Download" name="keywords">
+        <meta content="Resume Website Template Free Download" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <img src="img/profile.jpg" alt="Image">
                 </div>
-                <nav id="nav" class="nav">
-                    <a href="#inicio">Inicio</a>
-                    <a href="#sobremi">Sobre mí</a>
-                    <a href="#habilidades">Habilidades</a>
-                    <a href="#resumen">Resumen</a>
-                    <a href="#contacto">Contacto</a>
-                </nav>
-                <div class="logo">
-                    M<span class="color">S</span>
+                <div class="sidebar-content">
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">Navigation</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#header">Inicio<i class="fa fa-home"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">Sobre Mi<i class="fa fa-address-card"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#experience">Experiencia Laboral<i class="fa fa-star"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#service">Manjo de Servicios<i class="fa fa-tasks"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#portfolio">Portafolio<i class="fa fa-file-archive"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contacto<i class="fa fa-envelope"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </header>
-            <div class="info">
-                <h1>MARTIN SHEPARD</h1>
-                <h2>CODIFICADOR, DISEÑADOR, PROFESIONAL</h2>
-                <div class="redes">
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                <div class="sidebar-footer">
+                    <a href="https://www.linkedin.com/in/cristian-cordova-bron-745672178/"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-            <div class="foto">
-                <img src="img/foto.png" alt="">
+            <div class="content">
+                <!-- Header Start -->
+                <div class="header" id="header">
+                    <div class="content-inner">
+                        <p>Mi nombre</p>
+                        <h1>CRISTIAN CORDOVA</h1>
+                        <h2></h2>
+                        <div class="typed-text">Especialista en Soluciones, Desarrollador de Información de Sistema</div>
+                    </div>
+                </div>
+                <!-- Header End -->
+                
+                <!-- Large Button Start -->
+                <div class="large-btn">
+                    <div class="content-inner">
+                        <a class="btn" href="#about"><i class=""></i>Sobre Mi</a>
+                        <a class="btn" href="#contact"><i class="fa fa-hands-helping"></i>Contactame</a>
+                    </div>
+                </div>
+                <!-- Large Button End -->
+                
+                <!-- About Start -->
+                <div class="about" id="about">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Sobre Mi</h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-lg-5">
+                                <img src="img/profile.jpg" alt="Image">
+                            </div>
+                            <div class="col-md-6 col-lg-7">
+                                <p>
+                                    Joven responsable, creativo, con iniciativa y puntualidad. Asumo con agrado los retos y metas que su organización me pudiera plantear; Con buen manejo de relaciones 
+                                    interpersonales, facilidad para trabajar en equipo, en condiciones de alta presión, así como 
+                                    para resolver problemas eficientemente y lograr las metas trazadas por la empresa y grupo 
+                                    de trabajo. 
+                                    Domino intermedio del entorno Windows y office.
+                                </p>
+                                <a class="btn" href="#education">Educación</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="skills">
+                                    <div class="skill-name">
+                                        <p>Diseño</p><p>75%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="skill-name">
+                                        <p>Java</p><p>50%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="skill-name">
+                                        <p>Visual Code</p><p>50%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="skill-name">
+                                        <p>Base de Datos SQL</p><p>70%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="skill-name">
+                                        <p>Base de Datos MONGO DB</p><p>80%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="skill-name">
+                                        <p>Ingles</p><p>50%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="skills">
+                                    <div class="skill-name">
+                                        <p>Phyton</p><p>20%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="skill-name">
+                                        <p>Visual Studio</p><p>50%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="skill-name">
+                                        <p>Java-SpingBoot</p><p>20%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="skill-name">
+                                        <p>Microsoft (IBM)</p><p>30%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="skill-name">
+                                        <p>Metodologia Scram</p><p>30%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="skill-name">
+                                        <p>Metodologia Agil</p><p>30%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- About End -->
+                
+                <!-- Education Start -->
+                <div class="education" id="education">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Educación</h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="edu-col">
+                                    <span>Educación Basica</span>
+                                    <h3>(SECUNDARIA)</h3>
+                                    <p>INTITUCIÓN: COLEGIO TRILCE</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="edu-col">
+                                    <span>Educación Tecnica</span>
+                                    <h3>(CARRERA)</h3>
+                                    <p>ESPECIALIDAD: Desarrollo de Información de Sistema.<br>
+                                       INSTITUCIÓN: IDAT<br>
+                                       EGRESO: 2023<br>
+                                       ESTADO ACTUAL: Estudiante de Especialización de desarrollo de Backend
+                                    </p>
+                                </div>
+                            </div>
+                            <div >
+                                <div>
+                                </div>
+                            </div>
+                            <div >
+                                <div >
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Education Start -->
+                
+                <!-- Experience Start -->
+                <div class="experience" id="experience">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Experiencia Laboral</h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="exp-col">
+                                    <span>19-Dic.-2022</span>
+                                    <h3>EFACT (Empresa de Facturación Electronica)</h3>
+                                    <h4>Lima-Lima-Perú</h4>
+                                    <h5>Especialista en Soluciones</h5>
+                                    <p>Actual trabajador de la emresa EFCAT, en el area (MDA).                              </p>
+                                </div>
+                            </div>
+                            <div >
+                                <div >
+                                     </div>
+                            </div>
+                            <div >
+                                <div >
+                                   </div>
+                            </div>
+                            <div >
+                                <div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Experience Start -->
+                
+                <!-- Service Start -->
+                <div class="service" id="service">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Experiencia en Manejo de Servicios</h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3></h3>
+                                    <p>Desarrollo de PDF personalizados en formato A4 y ticket usando el lenguaje de programación JAVA.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3></h3>
+                                    <p>Pruebas y replica de incidencias empleando protocolos como SOAP, REST Y SFTP usando plataformas como SOAP UI, POSTMAN y FILEZILLA.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3></h3>
+                                    <p>Revisión de documentos JSON, CSV y XML siguiendo manuales por tipo de documento contratado.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3></h3>
+                                    <p>Atención de correos, llamadas y participación en reuniones de clientes con horas de asesoría QA desde los anexos designados.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3></h3>
+                                    <p>Instalación, actualización y/o revisión de modulo POS en equipos de clientes que contraten el servicio modulo POS.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3></h3>
+                                    <p>Habilitación, deshabilitación y programación de ambiente de prueba contratado por cliente.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3></h3>
+                                    <p>Revisión de logs para identificar incidencias de errores o caídas en los microservicios.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3></h3>
+                                    <p>Revisión de base de datos Mongo DB para confirmar creación de usuario, existencia de registro, actualización de información, etc.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3></h3>
+                                    <p>Realizar seguimiento a clientes con proyectos o solicitudes pendientes.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3></h3>
+                                    <p>Armado de cronograma de actividades incluyendo servicios contratados y tiempos estimados empleando Project Libre.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Start -->
+                
+                <!-- Portfolio Start -->
+                <div class="portfolio" id="portfolio">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Portfolio</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <ul id="portfolio-flters">
+                                    <li data-filter="*" class="filter-active">TODO</li>
+                                    <li data-filter=".web-des">EFACT</li>
+                                    <li data-filter=".web-dev">IDAT</li>                                 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row portfolio-container">
+                            <div class="col-lg-4 col-md-6 portfolio-item web-des">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/portfolio-1.png" class="img-fluid" alt="">
+                                        <a href="img/portfolio-1.png" data-lightbox="portfolio" data-title="Empresa de Fcaturación Electronica" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
+                                        <a><i class="fa fa-link"></i></a>
+                                        <a class="portfolio-title" href="#">Empresa de Fcaturación Electronica<span>EFACT</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-des">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/portfolio-2.png" class="img-fluid" alt="">
+                                        <a href="img/portfolio-2.png" class="link-preview" data-lightbox="portfolio" data-title="Desarrollo de formatos A4 personalizados" title="Preview"><i class="fa fa-eye"></i></a>
+                                        <a><i class="fa fa-link"></i></a>
+                                        <a class="portfolio-title" href="#">Desarrollo de formatos A4 personalizados<span>EFACT</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-des">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/portfolio-3.jfif" class="img-fluid" alt="">
+                                        <a href="img/portfolio-3.jfif" class="link-preview" data-lightbox="portfolio" data-title="Revisión de logs para identificar incidencias" title="Preview"><i class="fa fa-eye"></i></a>
+                                        <a><i class="fa fa-link"></i></a>
+                                        <a class="portfolio-title" href="#">Revisión de logs para identificar incidencias<span>EFACT</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/portfolio-4.png" class="img-fluid" alt="">
+                                        <a href="img/portfolio-4.png" class="link-preview" data-lightbox="portfolio" data-title="Institución de Educación Superior Tecnológica Privada" title="Preview"><i class="fa fa-eye"></i></a>
+                                        <a><i class="fa fa-link"></i></a>
+                                        <a class="portfolio-title" href="#">Institución de Educación Superior Tecnológica Privada<span>IDAT</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/portfolio-5.jpg" class="img-fluid" alt="">
+                                        <a href="img/portfolio-5.jpg" class="link-preview" data-lightbox="portfolio" data-title="Desarrollo de Información de Sistema" title="Preview"><i class="fa fa-eye"></i></a>
+                                        <a><i class="fa fa-link"></i></a>
+                                        <a class="portfolio-title" href="#">Desarrollo de Información de Sistema<span>IDAT</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/portfolio-6.jpg" class="img-fluid" alt="">
+                                        <a href="img/portfolio-6.jpg" class="link-preview" data-lightbox="portfolio" data-title="Especialización de desarrollo de Backend" title="Preview"><i class="fa fa-eye"></i></a>
+                                        <a ><i class="fa fa-link"></i></a>
+                                        <a class="portfolio-title" href="#">Especialización de desarrollo de Backend<span>IDAT</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Start -->
+                
+                
+                
+                <!-- Contact Start -->
+                <div class="contact" id="contact">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Contacto</h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="contact-info">
+                                    
+                                    <p><i class="fa fa-user"></i>Cristian Cordova Bron</p>
+                                    <p><i class="fa"></i>Lima-Lima-Peru</p>
+                                    <p><i class="fa"></i>Edad: 23 años</p>                                    
+                                    <p><i class="fa"></i>Especialista en Soluciones</p>
+                                    <p><i class="fa fa-envelope"></i><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWstptjfWnvnSVmJNQMNlqkXtNRfCdSHkCGFxSXVDZFLqgFrpjXDVNgjRtXxHqphSTpGNgrVV">cristian160900@gmail.com</a></p>
+                                    <p><i class="fa fa-phone"></i><a href="https://wa.me/qr/BYB2JOJMK4ZNJ1">98673684</a></p>
+                                    <div class="social">
+                                        <a class="btn" href="https://www.linkedin.com/in/cristian-cordova-bron-745672178/"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form">
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" placeholder="Nombre" />
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input type="email" class="form-control" placeholder="Correo" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Asunto" />
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                                        </div>
+                                        <div><button class="btn" type="submit">Enviar</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact End -->
+                
+                <!-- Footer Start -->
+                <div class="footer">
+                    <div class="content-inner">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <p><a href="https://htmlcodex.com"></a></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><a href="https://htmlcodex.com">CRISTIAN CORDOVA BRON</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Start -->
             </div>
         </div>
-    </section>
-
-    <!-- SECCION SOBRE MI -->
-    <section class="sobremi" id="sobremi">
-        <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Sobre Mi</h2>
-            <h3>Detalles personales</h3>
-
-            <p class="especial">Me dedico a producir ideas creativas y originales para mis clientes</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nobis! Sit, veniam aut omnis est suscipit itaque tempore fugiat! Repellat, necessitatibus. Neque quis, reprehenderit fugit dolore voluptate nam eum reiciendis!</p>
-
-            <div class="fila">
-                <div class="col">
-                    <i class="fa-solid fa-user"></i>
-                    <span class="titulo-detalle">Perfil</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
-                </div>
-                <div class="col">
-                    <i class="fa-solid fa-location-pin"></i>
-                    <span class="titulo-detalle">Ubicación</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
-                </div>
-                <div class="col">
-                    <i class="fa-solid fa-flag"></i>
-                    <span class="titulo-detalle">Intereses</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION HABILIDADES -->
-    <section class="habilidades" id="habilidades">
-        <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Mis habilidades</h2>
-            <h3>Me especializo en</h3>
-
-            <div class="fila">
-                <div class="col">
-                    <span>HTML/CSS</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="html">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                            
-                        </div>
-                        <span>98%</span>
-                    </div>
-                </div>
-                <div class="col">
-                    <span>JAVASCRIPT</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="javascript">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                           
-                        </div>
-                        <span>70%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="fila">
-                <div class="col">
-                    <span>WORDPRESS</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="wordpress">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                           
-                        </div>
-                        <span>90%</span>
-                    </div>
-                </div>
-                <div class="col">
-                    <span>PHOTOSHOP</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="photoshop">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                           
-                        </div>
-                        <span>85%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="fila">
-                <div class="col">
-                    <span>PHP</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="php">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                           
-                        </div>
-                        <span>95%</span>
-                    </div>
-                </div>
-                <div class="col">
-                    <span>ILUSTRATOR</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="ilustrator">
-                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
-                           
-                        </div>
-                        <span>75%</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION RESUMEN -->
-    <section class="resumen" id="resumen">
-        <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Resumen</h2>
-            <h3>Mi preparación y experiencia</h3>
-            <div class="info">
-                <div class="col">
-                    <span class="titulo">Educación</span>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2006 - 2010</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Lic. en computación</h4>
-                                <p>Universidad de San Juan</p>
-                                <span class="promedio">8.9 PG</span>
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2010 - 2015</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Programador FS</h4>
-                                <p>Udemy Cursos</p>
-                                <span class="promedio">8.9 PG</span>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col">
-                    <span class="titulo">Experiencia Laboral</span>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>3 Años</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Mercado Libre</h4>
-                                <p>Programador Junior</p>
-                               
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2 Años</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Software Inc.</h4>
-                                <p>Diseñadr Principal</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION CONTACTO -->
-    <section class="contacto" id="contacto">
-        <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Contacto</h2>
-            <h3>Ponte en contacto ahora mismo!</h3>
-
-            <div class="fila">
-                <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-phone"></i> Teléfono
-                    </h2>
-                    <span class="info-contacto">11 - 11223344</span>
-                </div>
-                <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-envelope"></i> Correo
-                    </h2>
-                    <span class="info-contacto">martinshepard@gmail.com</span>
-                </div>
-                <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-globe"></i> Página Web
-                    </h2>
-                    <span class="info-contacto">martinshepard.com</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <script src="app.js"></script>
-</body>
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
